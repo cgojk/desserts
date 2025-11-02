@@ -1,13 +1,17 @@
-import Contact from "./Contact"
+import Contact from "./components/Contact"
  import  data from "./data.json"
 
-function App() {
+
+export default function App() {
      const desserts = data.map((dessert) => (
         <Contact
-            image={dessert.image}
-            name={dessert.name}
-            category={dessert.category}
-            price={dessert.price}
+            key={dessert.id}
+            dessert={dessert}
+
+            // image={dessert.image}
+            // name={dessert.name}
+            // category={dessert.category}
+            // price={dessert.price}
         />
     ));
 
@@ -103,4 +107,4 @@ function App() {
 //     )
 // }
 
-export default App
+// export default App

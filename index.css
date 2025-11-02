@@ -104,6 +104,7 @@ body {
     display:flex;
     flex-direction:column;
     align-items:center;
+    position:relative;
 }
 .image_dessert{
       width: 100%;
@@ -151,6 +152,10 @@ body {
   gap:2em;
   padding:2em;
 }
+.addedtoCart{
+position:relative;
+/* bottom:0; */
+}
 
 /* 
 .contact-card {
@@ -192,3 +197,45 @@ body {
     font-size: 12px;
     color: #2B283A;
 } */
+
+/* functionalities adding elements */
+.counter_container{
+    border: solid var(--Red) 1px;
+    border-radius: 2rem;
+    width: 8.5rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     position:absolute; 
+    top:18rem;
+    left:6rem;
+}
+.addtoCart:hover{
+    background-color: var(--Rose-100);
+    cursor: pointer;
+
+}
+ .increment, .decrement {
+        border: solid var(--Rose-50) 1px;
+        height: 1rem;
+        width: 1rem;
+        border-radius: 50%;
+        padding: 2px;
+        /* display: none; */
+      }
+
+
+      .addtoCardInteraction{
+        background-color: var(--Red);
+        border: solid var(--Red) 0.12rem;
+        color: var(--Rose-50);
+        font-weight: var(--Weight-400);
+        justify-content: space-around;
+        gap: 2rem;
+        height: 2.823125rem;
+      }
+      /* .addtoCartContainer{
+        position:absolute;
+       
+      } */
