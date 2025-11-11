@@ -38,7 +38,7 @@ function handleRemove() {
             {quantity === 0 ? (
               <button className="addtoCart" onClick={handleAdd}>
                 <img
-                  src="./assets/images/icon-add-to-cart.svg"
+                  src="/assets/images/icon-add-to-cart.svg"
                   alt="Add to cart icon"
                 />
                 <span>Add to Cart</span>

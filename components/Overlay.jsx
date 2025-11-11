@@ -9,7 +9,7 @@ export default function Overlay({ cartItems, onStartNewOrder, onCloseOverlay }) 
       <section className="checkout">
         <article className="confirmation__section">
           <img
-            src="assets/images/icon-order-confirmed.svg"
+            src="/assets/images/icon-order-confirmed.svg"
             alt="check"
             className="checking-icon"
           />
