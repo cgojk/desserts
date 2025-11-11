@@ -14,7 +14,7 @@ export default function Cart({ cartItems, onRemove, onAdd, onDecrease, onConfirm
         <>
           <h2>Your Cart is Empty</h2>
           <img
-            src="./assets/images/image-empty-cart.jpg"
+            src="./assets/images/illustration-empty-cart.svg"
             className="img_empty"
             alt="Empty Cart"
           />
