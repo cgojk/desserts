@@ -8,7 +8,7 @@ import Cart from "./components/Cart";
 import Overlay from "./components/Overlay";
 
 export default function App() {
-  // 🛒 Step 1: Cart is an array
+//  Cart is an array
   const [cartItems, setCartItems] = useState([]);
   const [showOverlay, setShowOverlay] = useState(false);
 
